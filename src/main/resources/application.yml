@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/autocomplete
+      port: 27017
+      database: autocomplete
+  kafka:
+    bootstrap-servers: localhost:9092
+    topic: cmd.updater.autocomplete
+top:
+  words:
+    count: 10
